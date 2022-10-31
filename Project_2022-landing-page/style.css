@@ -1,0 +1,97 @@
+/* Ginagawa ko tlga to sa lahat ng mga Projects ko, kasi base sa pag kaka alam ko " Ibat-ibang default setting ng margin
+at padding ang mga Browser kaya para patas silang lahat at fit sa lahat ng Browser mga Projects ko
+ni rereset ko tlga siya Globaly */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background {
+    background-image: url('BG-cool.jpg');
+    background-position: center;
+    background-size:cover;
+    transition: 300ms;
+}
+
+.nav-list {
+    min-width: 100%;
+    min-height: 50px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 8%, rgba(123,139,149,0.7123891793045343) 48%, rgba(0,212,255,1) 91%);
+    /* Base sa knowledge ko now kahit ganito lng code mu magiging responsive pa din ang Website nyo !!! ...
+     ..... sa Understanding ko lang talaga tong ina apply ko sa Personal Landing Page ko */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.logo {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5em;
+    color: rgb(187, 191, 167);
+    font-size: 40px;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: rgba(244, 91, 9, 0.781);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 50px;
+}
+
+.nav-list ul {
+    margin-right: 20px;
+}
+
+.nav-list ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: maroon;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav-list ul li a:hover {
+    color: black;
+   font-size: 30px;
+   transition: 400ms;
+   cursor: pointer;
+}
+/* starting on my Section with a simple introduction of my self */
+.container {
+    min-width: 70%;
+    min-height: 550px;
+    background: rgba(0, 1, 0, 0.50);
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(219, 227, 105, 0.879);
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+p {
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(241, 216, 134, 0.74);
+    font-size: 30px;
+    text-transform: capitalize;
+    position: relative;
+    text-align: center;
+
+}
+/* this content is currently hidden , it will appear when the visitors or customer are press the Service navigation */
